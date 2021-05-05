@@ -1,0 +1,30 @@
+package com.company.Day3;
+
+import java.util.Scanner;
+
+public class Task15 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("input array length");
+        int arrayLength = scanner.nextInt();
+        int[] array = new int[arrayLength];
+        System.out.println("input array element");
+        for (int i = 0; i < arrayLength; i++) {
+            int arrayElement = scanner.nextInt();
+            array[i] = arrayElement;
+        }
+        int count=0;
+        for (int i = 0; i < arrayLength; i++) {
+            for (int j = 1; j < arrayLength; j++) {
+                if (array[i] == array[j]) {
+                    count++;
+                }
+            }
+                if(count==0)
+                {
+                    System.out.println(array[i] + " ");
+                }
+                }
+
+            }
+        }
