@@ -23,7 +23,7 @@ public class Task7 {
         }
         for(int j=0;j<arrayLength;j++)
         {
-            if(min>array[j])
+            if(min>array[j] && array[j]>0)
             {
                 min=array[j];
             }

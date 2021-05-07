@@ -8,12 +8,12 @@ public class Task9 {
         System.out.println("input number");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        int count = 0;
+        int count = 1;
         for (int tiv = 2; tiv <= number; tiv *= 2) {
 
             System.out.print(tiv + " ,");
             count++;
         }
-        System.out.println("count=" + (count + 1));
+        System.out.println("count=" + count);
     }
 }

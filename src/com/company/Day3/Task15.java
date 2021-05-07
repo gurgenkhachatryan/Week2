@@ -15,11 +15,11 @@ public class Task15 {
         }
         int count=0;
         for (int i = 0; i < arrayLength; i++) {
-            for (int j = 1; j < arrayLength; j++) {
-                if (array[i] == array[j]) {
-                    count++;
-                }
+              for (int j = 1; j < arrayLength; j++) {
+            if (array[i] == array[j ]) {
+                count++;
             }
+        }
                 if(count==0)
                 {
                     System.out.println(array[i] + " ");

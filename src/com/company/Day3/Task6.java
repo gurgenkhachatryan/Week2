@@ -14,7 +14,7 @@ public class Task6 {
             int arrayElement = scanner.nextInt();
             array[i] = arrayElement;
         }
-        for(int j=0;j<arrayLength-1;j++)
+        for(int j=0;j<arrayLength;j++)
         {
             if(max<array[j])
             {
