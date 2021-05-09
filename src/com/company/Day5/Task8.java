@@ -8,12 +8,11 @@ public class Task8 {
         int b1 = scanner.nextInt();
         int q = scanner.nextInt();
         int n = scanner.nextInt();
-        int bn = 0;
-        for (int i =1; i <= n; i *= q) {
-
-            bn = b1*i * q;
-
-        }
-        System.out.println(bn);
+        int bn=b1;
+        for(int i=2;i<=n;i++)
+     {bn=b1*q;
+         b1=bn;
+              }
+       System.out.println("bn="+ bn);
     }
 }

@@ -8,10 +8,11 @@ public class Task2 {
         int minuteNumber = scanner.nextInt();
         int minute = 0;
         int jam = 0;
-        if (minuteNumber > 1440) {
+        if (minuteNumber >= 1440)
+        {
             minuteNumber = minuteNumber % 1440;
         }
-        if (minuteNumber < 1440) {
+        {
             minute = minuteNumber % 60;
             jam = minuteNumber / 60;
         }

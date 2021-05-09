@@ -12,8 +12,9 @@ public class Task1 {
         } else {
             for (int i = 1; i <= n; i++) {
                 gum *= 2;
+                System.out.println("gum=" + gum);
             }
-            System.out.println("gum=" + gum);
+            //System.out.println("gum=" + gum);
         }
     }
 }
